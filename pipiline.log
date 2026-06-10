@@ -1,0 +1,602 @@
+2026-05-26 11:59:05,620 - __main__ - INFO - PIPELINE TEST RUN HAS STARTED
+2026-05-26 11:59:05,622 - __main__ - INFO - ==================================================
+2026-05-26 11:59:05,622 - __main__ - INFO - FETCH STAGE STARTED
+2026-05-26 11:59:05,624 - __main__ - INFO - Fetching weather for 4 cities
+2026-05-26 11:59:05,626 - __main__ - INFO - ==================================================
+2026-05-26 11:59:05,626 - __main__ - INFO - Fetching data for Durban...
+2026-05-26 11:59:09,622 - __main__ - ERROR - Durban FAILED — HTTP error: 400 Client Error: Bad Request for url: https://api.open-meteo.com/v1/forecast?latitude=-29.8587&longitude=31.0218&daily=tempreture_2m_max&daily=tempreture_2m_min&daily=precipitation_sum&daily=windspeed_10m_max&daily=weathercode&timezone=auto&forecast_days=1
+2026-05-26 11:59:11,274 - __main__ - INFO - Fetching data for Cape Town...
+2026-05-26 11:59:14,869 - __main__ - ERROR - Cape Town FAILED — HTTP error: 400 Client Error: Bad Request for url: https://api.open-meteo.com/v1/forecast?latitude=-33.9249&longitude=18.4241&daily=tempreture_2m_max&daily=tempreture_2m_min&daily=precipitation_sum&daily=windspeed_10m_max&daily=weathercode&timezone=auto&forecast_days=1
+2026-05-26 11:59:15,952 - __main__ - INFO - Fetching data for Johannesburg...
+2026-05-26 11:59:20,256 - __main__ - ERROR - Johannesburg FAILED — HTTP error: 400 Client Error: Bad Request for url: https://api.open-meteo.com/v1/forecast?latitude=-26.2041&longitude=28.0473&daily=tempreture_2m_max&daily=tempreture_2m_min&daily=precipitation_sum&daily=windspeed_10m_max&daily=weathercode&timezone=auto&forecast_days=1
+2026-05-26 11:59:21,357 - __main__ - INFO - Fetching data for Pretoria...
+2026-05-26 11:59:25,490 - __main__ - ERROR - Pretoria FAILED — HTTP error: 400 Client Error: Bad Request for url: https://api.open-meteo.com/v1/forecast?latitude=-25.7449&longitude=28.1878&daily=tempreture_2m_max&daily=tempreture_2m_min&daily=precipitation_sum&daily=windspeed_10m_max&daily=weathercode&timezone=auto&forecast_days=1
+2026-05-26 11:59:26,536 - __main__ - INFO - Fetch complete — 0 cities succeeded, 4 failed
+2026-05-26 11:59:26,536 - __main__ - WARNING - Failed cities: ['Durban', 'Cape Town', 'Johannesburg', 'Pretoria']
+2026-05-26 11:59:26,536 - __main__ - CRITICAL - ALL cities failed . Aborting pipeline.
+2026-05-26 11:59:27,585 - __main__ - CRITICAL - PIPELINE FAILED: Fetch stage failed — no data retrieved for any city.
+2026-05-26 13:13:12,152 - __main__ - INFO - PIPELINE TEST RUN HAS STARTED
+2026-05-26 13:13:12,156 - __main__ - INFO - ==================================================
+2026-05-26 13:13:12,158 - __main__ - INFO - FETCH STAGE STARTED
+2026-05-26 13:13:12,158 - __main__ - INFO - Fetching weather for 4 cities
+2026-05-26 13:13:12,158 - __main__ - INFO - ==================================================
+2026-05-26 13:13:12,160 - __main__ - INFO - Fetching data for Durban...
+2026-05-26 13:13:18,523 - __main__ - ERROR - Durban FAILED — HTTP error: 400 Client Error: Bad Request for url: https://api.open-meteo.com/v1/forecast?latitude=-29.8587&longitude=31.0218&daily=tempareture_2m_max&daily=tempareture_2m_min&daily=precipitation_sum&daily=windspeed_10m_max&daily=weathercode&timezone=auto&forecast_days=1
+2026-05-26 13:13:18,529 - __main__ - INFO - Fetching data for Cape Town...
+2026-05-26 13:13:23,218 - __main__ - ERROR - Cape Town FAILED — HTTP error: 400 Client Error: Bad Request for url: https://api.open-meteo.com/v1/forecast?latitude=-33.9249&longitude=18.4241&daily=tempareture_2m_max&daily=tempareture_2m_min&daily=precipitation_sum&daily=windspeed_10m_max&daily=weathercode&timezone=auto&forecast_days=1
+2026-05-26 13:13:23,218 - __main__ - INFO - Fetching data for Johannesburg...
+2026-05-26 13:13:29,993 - __main__ - ERROR - Johannesburg FAILED — HTTP error: 400 Client Error: Bad Request for url: https://api.open-meteo.com/v1/forecast?latitude=-26.2041&longitude=28.0473&daily=tempareture_2m_max&daily=tempareture_2m_min&daily=precipitation_sum&daily=windspeed_10m_max&daily=weathercode&timezone=auto&forecast_days=1
+2026-05-26 13:13:29,995 - __main__ - INFO - Fetching data for Pretoria...
+2026-05-26 13:13:36,369 - __main__ - ERROR - Pretoria FAILED — HTTP error: 400 Client Error: Bad Request for url: https://api.open-meteo.com/v1/forecast?latitude=-25.7449&longitude=28.1878&daily=tempareture_2m_max&daily=tempareture_2m_min&daily=precipitation_sum&daily=windspeed_10m_max&daily=weathercode&timezone=auto&forecast_days=1
+2026-05-26 13:13:36,369 - __main__ - INFO - Fetch complete — 0 cities succeeded, 4 failed
+2026-05-26 13:13:36,369 - __main__ - WARNING - Failed cities: ['Durban', 'Cape Town', 'Johannesburg', 'Pretoria']
+2026-05-26 13:13:36,371 - __main__ - CRITICAL - ALL cities failed . Aborting pipeline.
+2026-05-26 13:13:36,371 - __main__ - CRITICAL - PIPELINE FAILED: Fetch stage failed — no data retrieved for any city.
+2026-05-26 13:16:51,452 - __main__ - INFO - PIPELINE TEST RUN HAS STARTED
+2026-05-26 13:16:51,457 - __main__ - INFO - ==================================================
+2026-05-26 13:16:51,497 - __main__ - INFO - FETCH STAGE STARTED
+2026-05-26 13:16:51,529 - __main__ - INFO - Fetching weather for 4 cities
+2026-05-26 13:16:51,548 - __main__ - INFO - ==================================================
+2026-05-26 13:16:51,561 - __main__ - INFO - Fetching data for Durban...
+2026-05-26 13:16:56,327 - __main__ - INFO - Fetching data for Cape Town...
+2026-05-26 13:17:00,579 - __main__ - INFO - Fetching data for Johannesburg...
+2026-05-26 13:17:04,624 - __main__ - INFO - Fetching data for Pretoria...
+2026-05-26 13:17:09,049 - __main__ - INFO - Fetch complete — 4 cities succeeded, 0 failed
+2026-05-26 13:17:09,113 - __main__ - INFO - FETCH STAGE COMPLETE
+2026-05-26 13:17:09,120 - __main__ - INFO - ==================================================
+2026-05-26 13:17:09,120 - __main__ - INFO - VALIDATION STAGE STARTED
+2026-05-26 13:17:09,121 - __main__ - INFO - ==================================================
+2026-05-26 13:17:09,147 - __main__ - INFO - NULL check PASSED — 'city'
+2026-05-26 13:17:09,149 - __main__ - INFO - NULL check PASSED — 'date'
+2026-05-26 13:17:09,155 - __main__ - CRITICAL - PIPELINE FAILED: 'temp_max__c'
+2026-05-26 13:23:12,779 - __main__ - INFO - PIPELINE TEST RUN HAS STARTED
+2026-05-26 13:23:12,781 - __main__ - INFO - ==================================================
+2026-05-26 13:23:12,783 - __main__ - INFO - FETCH STAGE STARTED
+2026-05-26 13:23:12,783 - __main__ - INFO - Fetching weather for 4 cities
+2026-05-26 13:23:12,785 - __main__ - INFO - ==================================================
+2026-05-26 13:23:12,785 - __main__ - INFO - Fetching data for Durban...
+2026-05-26 13:23:16,745 - __main__ - INFO - Durban OK — max: 25.1°C, min: 14.1°C, rain: 0.0mm
+2026-05-26 13:23:16,848 - __main__ - INFO - Fetching data for Cape Town...
+2026-05-26 13:23:20,480 - __main__ - INFO - Cape Town OK — max: 18.2°C, min: 12.0°C, rain: 0.0mm
+2026-05-26 13:23:20,480 - __main__ - INFO - Fetching data for Johannesburg...
+2026-05-26 13:23:24,093 - __main__ - INFO - Johannesburg OK — max: 19.1°C, min: 9.9°C, rain: 0.0mm
+2026-05-26 13:23:24,097 - __main__ - INFO - Fetching data for Pretoria...
+2026-05-26 13:23:27,528 - __main__ - INFO - Pretoria OK — max: 21.2°C, min: 10.5°C, rain: 0.0mm
+2026-05-26 13:23:27,536 - __main__ - INFO - Fetch complete — 4 cities succeeded, 0 failed
+2026-05-26 13:23:27,539 - __main__ - INFO - FETCH STAGE COMPLETE
+2026-05-26 13:23:27,553 - __main__ - INFO - ==================================================
+2026-05-26 13:23:27,557 - __main__ - INFO - VALIDATION STAGE STARTED
+2026-05-26 13:23:27,557 - __main__ - INFO - ==================================================
+2026-05-26 13:23:27,566 - __main__ - INFO - NULL check PASSED — 'city'
+2026-05-26 13:23:27,577 - __main__ - INFO - NULL check PASSED — 'date'
+2026-05-26 13:23:27,593 - __main__ - INFO - NULL check PASSED — 'temp_max_c'
+2026-05-26 13:23:27,608 - __main__ - INFO - NULL check PASSED — 'temp_min_c'
+2026-05-26 13:23:27,611 - __main__ - INFO - Range check PASSED — temp_max_c
+2026-05-26 13:23:27,628 - __main__ - INFO - Range check PASSED — temp_min_c
+2026-05-26 13:23:27,645 - __main__ - INFO - Logic check PASSED — temp_max >= temp_min
+2026-05-26 13:23:27,691 - __main__ - INFO - Data quality score: 100.0%
+2026-05-26 13:23:27,711 - __main__ - INFO - Rows: 4 | Cities: 4 | Columns: 8
+2026-05-26 13:23:27,723 - __main__ - INFO - VALIDATION STAGE COMPLETE — all critical checks passed
+2026-05-26 13:23:27,734 - __main__ - INFO - ==================================================
+2026-05-26 13:23:27,735 - __main__ - INFO - CLEAN STAGE STARTED
+2026-05-26 13:23:27,736 - __main__ - INFO - ==================================================
+2026-05-26 13:23:27,745 - __main__ - INFO - No duplicates found
+2026-05-26 13:23:27,793 - __main__ - INFO - Types cast successfully
+2026-05-26 13:23:27,808 - __main__ - INFO - Computed column added: temp_range_c
+2026-05-26 13:23:27,819 - __main__ - INFO - CLEAN STAGE COMPLETE — 4 rows ready for loading
+2026-05-26 13:23:27,823 - __main__ - INFO - Columns: ['city', 'date', 'temp_max_c', 'temp_min_c', 'precipitation_mm', 'windspeed_kmh', 'weathercode', 'ingested_at', 'temp_range_c']
+2026-05-26 13:23:27,885 - __main__ - INFO - PIPELINE TEST RUN COMPLETE
+2026-05-26 18:46:44,880 - __main__ - INFO - Email credentials not found - alert emails disabled
+2026-05-26 18:46:44,884 - __main__ - INFO - PIPELINE TEST RUN HAS STARTED
+2026-05-26 18:46:44,884 - __main__ - INFO - ==================================================
+2026-05-26 18:46:44,885 - __main__ - INFO - FETCH STAGE STARTED
+2026-05-26 18:46:44,885 - __main__ - INFO - Fetching weather for 4 cities
+2026-05-26 18:46:44,885 - __main__ - INFO - ==================================================
+2026-05-26 18:46:44,885 - __main__ - INFO - Fetching data for Durban...
+2026-05-26 18:46:49,075 - __main__ - INFO - Durban OK — max: 25.3°C, min: 14.1°C, rain: 0.0mm
+2026-05-26 18:46:49,077 - __main__ - INFO - Fetching data for Cape Town...
+2026-05-26 18:46:53,146 - __main__ - INFO - Cape Town OK — max: 18.1°C, min: 12.0°C, rain: 0.0mm
+2026-05-26 18:46:53,150 - __main__ - INFO - Fetching data for Johannesburg...
+2026-05-26 18:46:57,839 - __main__ - INFO - Johannesburg OK — max: 18.9°C, min: 9.9°C, rain: 0.0mm
+2026-05-26 18:46:57,848 - __main__ - INFO - Fetching data for Pretoria...
+2026-05-26 18:47:03,969 - __main__ - INFO - Pretoria OK — max: 21.6°C, min: 10.5°C, rain: 0.0mm
+2026-05-26 18:47:03,972 - __main__ - INFO - Fetch complete — 4 cities succeeded, 0 failed
+2026-05-26 18:47:03,989 - __main__ - INFO - FETCH STAGE COMPLETE
+2026-05-26 18:47:03,992 - __main__ - INFO - ==================================================
+2026-05-26 18:47:04,021 - __main__ - INFO - VALIDATION STAGE STARTED
+2026-05-26 18:47:04,024 - __main__ - INFO - ==================================================
+2026-05-26 18:47:04,044 - __main__ - INFO - NULL check PASSED — 'city'
+2026-05-26 18:47:04,050 - __main__ - INFO - NULL check PASSED — 'date'
+2026-05-26 18:47:04,052 - __main__ - INFO - NULL check PASSED — 'temp_max_c'
+2026-05-26 18:47:04,067 - __main__ - INFO - NULL check PASSED — 'temp_min_c'
+2026-05-26 18:47:04,072 - __main__ - INFO - Range check PASSED — temp_max_c
+2026-05-26 18:47:04,084 - __main__ - INFO - Range check PASSED — temp_min_c
+2026-05-26 18:47:04,146 - __main__ - INFO - Logic check PASSED — temp_max >= temp_min
+2026-05-26 18:47:04,403 - __main__ - INFO - Data quality score: 100.0%
+2026-05-26 18:47:04,524 - __main__ - INFO - Rows: 4 | Cities: 4 | Columns: 8
+2026-05-26 18:47:04,541 - __main__ - INFO - VALIDATION STAGE COMPLETE — all critical checks passed
+2026-05-26 18:47:04,543 - __main__ - INFO - ==================================================
+2026-05-26 18:47:04,587 - __main__ - INFO - CLEAN STAGE STARTED
+2026-05-26 18:47:04,616 - __main__ - INFO - ==================================================
+2026-05-26 18:47:04,708 - __main__ - INFO - No duplicates found
+2026-05-26 18:47:04,734 - __main__ - INFO - Types cast successfully
+2026-05-26 18:47:04,760 - __main__ - INFO - Computed column added: temp_range_c
+2026-05-26 18:47:04,808 - __main__ - INFO - CLEAN STAGE COMPLETE — 4 rows ready for loading
+2026-05-26 18:47:04,849 - __main__ - INFO - Columns: ['city', 'date', 'temp_max_c', 'temp_min_c', 'precipitation_mm', 'windspeed_kmh', 'weathercode', 'ingested_at', 'temp_range_c']
+2026-05-26 18:47:04,982 - __main__ - INFO - PIPELINE TEST RUN COMPLETE
+2026-05-26 19:20:10,138 - __main__ - INFO - Email credentials not found - alert emails disabled
+2026-05-26 19:20:10,279 - __main__ - INFO - PIPELINE TEST RUN HAS STARTED
+2026-05-26 19:20:10,446 - __main__ - INFO - ==================================================
+2026-05-26 19:20:10,571 - __main__ - INFO - FETCH STAGE STARTED
+2026-05-26 19:20:10,712 - __main__ - INFO - Fetching weather for 4 cities
+2026-05-26 19:20:10,795 - __main__ - INFO - ==================================================
+2026-05-26 19:20:10,820 - __main__ - INFO - Fetching data for Durban...
+2026-05-26 19:20:16,353 - __main__ - INFO - Durban OK — max: 25.3°C, min: 14.1°C, rain: 0.0mm
+2026-05-26 19:20:16,360 - __main__ - INFO - Fetching data for Cape Town...
+2026-05-26 19:20:20,433 - __main__ - INFO - Cape Town OK — max: 18.1°C, min: 12.0°C, rain: 0.0mm
+2026-05-26 19:20:20,437 - __main__ - INFO - Fetching data for Johannesburg...
+2026-05-26 19:20:23,997 - __main__ - INFO - Johannesburg OK — max: 18.9°C, min: 9.9°C, rain: 0.0mm
+2026-05-26 19:20:24,000 - __main__ - INFO - Fetching data for Pretoria...
+2026-05-26 19:20:28,570 - __main__ - INFO - Pretoria OK — max: 21.6°C, min: 10.5°C, rain: 0.0mm
+2026-05-26 19:20:28,596 - __main__ - INFO - Fetch complete — 4 cities succeeded, 0 failed
+2026-05-26 19:20:28,631 - __main__ - INFO - FETCH STAGE COMPLETE
+2026-05-26 19:20:28,697 - __main__ - INFO - ==================================================
+2026-05-26 19:20:28,860 - __main__ - INFO - VALIDATION STAGE STARTED
+2026-05-26 19:20:28,908 - __main__ - INFO - ==================================================
+2026-05-26 19:20:28,971 - __main__ - INFO - NULL check PASSED — 'city'
+2026-05-26 19:20:28,974 - __main__ - INFO - NULL check PASSED — 'date'
+2026-05-26 19:20:28,976 - __main__ - INFO - NULL check PASSED — 'temp_max_c'
+2026-05-26 19:20:28,983 - __main__ - INFO - NULL check PASSED — 'temp_min_c'
+2026-05-26 19:20:28,988 - __main__ - INFO - Range check PASSED — temp_max_c
+2026-05-26 19:20:29,009 - __main__ - INFO - Range check PASSED — temp_min_c
+2026-05-26 19:20:29,015 - __main__ - INFO - Logic check PASSED — temp_max >= temp_min
+2026-05-26 19:20:29,041 - __main__ - INFO - Data quality score: 100.0%
+2026-05-26 19:20:29,112 - __main__ - INFO - Rows: 4 | Cities: 4 | Columns: 8
+2026-05-26 19:20:29,128 - __main__ - INFO - VALIDATION STAGE COMPLETE — all critical checks passed
+2026-05-26 19:20:29,129 - __main__ - INFO - ==================================================
+2026-05-26 19:20:29,133 - __main__ - INFO - CLEAN STAGE STARTED
+2026-05-26 19:20:29,135 - __main__ - INFO - ==================================================
+2026-05-26 19:20:29,169 - __main__ - INFO - No duplicates found
+2026-05-26 19:20:29,252 - __main__ - INFO - Types cast successfully
+2026-05-26 19:20:29,264 - __main__ - INFO - Computed column added: temp_range_c
+2026-05-26 19:20:29,264 - __main__ - INFO - CLEAN STAGE COMPLETE — 4 rows ready for loading
+2026-05-26 19:20:29,265 - __main__ - INFO - Columns: ['city', 'date', 'temp_max_c', 'temp_min_c', 'precipitation_mm', 'windspeed_kmh', 'weathercode', 'ingested_at', 'temp_range_c']
+2026-05-26 19:20:29,438 - __main__ - INFO - PIPELINE TEST RUN COMPLETE
+2026-05-26 19:20:41,834 - __main__ - INFO - Email alert handler configured succesfully
+2026-05-26 19:20:41,835 - __main__ - INFO - PIPELINE TEST RUN HAS STARTED
+2026-05-26 19:20:41,840 - __main__ - INFO - ==================================================
+2026-05-26 19:20:41,848 - __main__ - INFO - FETCH STAGE STARTED
+2026-05-26 19:20:41,850 - __main__ - INFO - Fetching weather for 4 cities
+2026-05-26 19:20:41,851 - __main__ - INFO - ==================================================
+2026-05-26 19:20:41,853 - __main__ - INFO - Fetching data for Durban...
+2026-05-26 19:20:45,664 - __main__ - INFO - Durban OK — max: 25.3°C, min: 14.1°C, rain: 0.0mm
+2026-05-26 19:20:45,695 - __main__ - INFO - Fetching data for Cape Town...
+2026-05-26 19:20:48,900 - __main__ - INFO - Cape Town OK — max: 18.1°C, min: 12.0°C, rain: 0.0mm
+2026-05-26 19:20:48,900 - __main__ - INFO - Fetching data for Johannesburg...
+2026-05-26 19:20:52,599 - __main__ - INFO - Johannesburg OK — max: 18.9°C, min: 9.9°C, rain: 0.0mm
+2026-05-26 19:20:52,599 - __main__ - INFO - Fetching data for Pretoria...
+2026-05-26 19:20:56,318 - __main__ - INFO - Pretoria OK — max: 21.6°C, min: 10.5°C, rain: 0.0mm
+2026-05-26 19:20:56,320 - __main__ - INFO - Fetch complete — 4 cities succeeded, 0 failed
+2026-05-26 19:20:56,322 - __main__ - INFO - FETCH STAGE COMPLETE
+2026-05-26 19:20:56,329 - __main__ - INFO - ==================================================
+2026-05-26 19:20:56,337 - __main__ - INFO - VALIDATION STAGE STARTED
+2026-05-26 19:20:56,338 - __main__ - INFO - ==================================================
+2026-05-26 19:20:56,344 - __main__ - INFO - NULL check PASSED — 'city'
+2026-05-26 19:20:56,360 - __main__ - INFO - NULL check PASSED — 'date'
+2026-05-26 19:20:56,377 - __main__ - INFO - NULL check PASSED — 'temp_max_c'
+2026-05-26 19:20:56,380 - __main__ - INFO - NULL check PASSED — 'temp_min_c'
+2026-05-26 19:20:56,399 - __main__ - INFO - Range check PASSED — temp_max_c
+2026-05-26 19:20:56,421 - __main__ - INFO - Range check PASSED — temp_min_c
+2026-05-26 19:20:56,428 - __main__ - INFO - Logic check PASSED — temp_max >= temp_min
+2026-05-26 19:20:56,440 - __main__ - INFO - Data quality score: 100.0%
+2026-05-26 19:20:56,445 - __main__ - INFO - Rows: 4 | Cities: 4 | Columns: 8
+2026-05-26 19:20:56,447 - __main__ - INFO - VALIDATION STAGE COMPLETE — all critical checks passed
+2026-05-26 19:20:56,456 - __main__ - INFO - ==================================================
+2026-05-26 19:20:56,457 - __main__ - INFO - CLEAN STAGE STARTED
+2026-05-26 19:20:56,461 - __main__ - INFO - ==================================================
+2026-05-26 19:20:56,471 - __main__ - INFO - No duplicates found
+2026-05-26 19:20:56,510 - __main__ - INFO - Types cast successfully
+2026-05-26 19:20:56,520 - __main__ - INFO - Computed column added: temp_range_c
+2026-05-26 19:20:56,523 - __main__ - INFO - CLEAN STAGE COMPLETE — 4 rows ready for loading
+2026-05-26 19:20:56,524 - __main__ - INFO - Columns: ['city', 'date', 'temp_max_c', 'temp_min_c', 'precipitation_mm', 'windspeed_kmh', 'weathercode', 'ingested_at', 'temp_range_c']
+2026-05-26 19:20:56,562 - __main__ - INFO - PIPELINE TEST RUN COMPLETE
+2026-05-26 19:22:46,145 - __main__ - INFO - Email alert handler configured succesfully
+2026-05-26 19:22:46,157 - __main__ - INFO - PIPELINE TEST RUN HAS STARTED
+2026-05-26 19:22:46,159 - __main__ - INFO - ==================================================
+2026-05-26 19:22:46,160 - __main__ - INFO - FETCH STAGE STARTED
+2026-05-26 19:22:46,166 - __main__ - INFO - Fetching weather for 4 cities
+2026-05-26 19:22:46,166 - __main__ - INFO - ==================================================
+2026-05-26 19:22:46,168 - __main__ - INFO - Fetching data for Durban...
+2026-05-26 19:22:50,470 - __main__ - ERROR - Durban FAILED — HTTP error: 404 Client Error: Not Found for url: https://api.open-meteo.com/v1/BROKEN?latitude=-29.8587&longitude=31.0218&daily=temperature_2m_max&daily=temperature_2m_min&daily=precipitation_sum&daily=windspeed_10m_max&daily=weathercode&timezone=auto&forecast_days=1
+2026-05-26 19:22:53,204 - __main__ - INFO - Fetching data for Cape Town...
+2026-05-26 19:22:56,981 - __main__ - ERROR - Cape Town FAILED — HTTP error: 404 Client Error: Not Found for url: https://api.open-meteo.com/v1/BROKEN?latitude=-33.9249&longitude=18.4241&daily=temperature_2m_max&daily=temperature_2m_min&daily=precipitation_sum&daily=windspeed_10m_max&daily=weathercode&timezone=auto&forecast_days=1
+2026-05-26 19:22:59,363 - __main__ - INFO - Fetching data for Johannesburg...
+2026-05-26 19:23:03,444 - __main__ - ERROR - Johannesburg FAILED — HTTP error: 404 Client Error: Not Found for url: https://api.open-meteo.com/v1/BROKEN?latitude=-26.2041&longitude=28.0473&daily=temperature_2m_max&daily=temperature_2m_min&daily=precipitation_sum&daily=windspeed_10m_max&daily=weathercode&timezone=auto&forecast_days=1
+2026-05-26 19:23:05,642 - __main__ - INFO - Fetching data for Pretoria...
+2026-05-26 19:23:09,846 - __main__ - ERROR - Pretoria FAILED — HTTP error: 404 Client Error: Not Found for url: https://api.open-meteo.com/v1/BROKEN?latitude=-25.7449&longitude=28.1878&daily=temperature_2m_max&daily=temperature_2m_min&daily=precipitation_sum&daily=windspeed_10m_max&daily=weathercode&timezone=auto&forecast_days=1
+2026-05-26 19:23:12,731 - __main__ - INFO - Fetch complete — 0 cities succeeded, 4 failed
+2026-05-26 19:23:12,732 - __main__ - WARNING - Failed cities: ['Durban', 'Cape Town', 'Johannesburg', 'Pretoria']
+2026-05-26 19:23:12,733 - __main__ - CRITICAL - ALL cities failed . Aborting pipeline.
+2026-05-26 19:23:15,630 - __main__ - CRITICAL - PIPELINE FAILED: Fetch stage failed — no data retrieved for any city.
+2026-05-26 19:29:49,915 - __main__ - INFO - Email alert handler configured succesfully
+2026-05-26 19:29:49,922 - __main__ - INFO - PIPELINE TEST RUN HAS STARTED
+2026-05-26 19:29:49,922 - __main__ - INFO - ==================================================
+2026-05-26 19:29:49,924 - __main__ - INFO - FETCH STAGE STARTED
+2026-05-26 19:29:49,924 - __main__ - INFO - Fetching weather for 4 cities
+2026-05-26 19:29:49,924 - __main__ - INFO - ==================================================
+2026-05-26 19:29:49,924 - __main__ - INFO - Fetching data for Durban...
+2026-05-26 19:29:55,380 - __main__ - ERROR - Durban FAILED — HTTP error: 404 Client Error: Not Found for url: https://api.open-meteo.com/v1/BROKEN?latitude=-29.8587&longitude=31.0218&daily=temperature_2m_max&daily=temperature_2m_min&daily=precipitation_sum&daily=windspeed_10m_max&daily=weathercode&timezone=auto&forecast_days=1
+2026-05-26 19:29:57,817 - __main__ - INFO - Fetching data for Cape Town...
+2026-05-26 19:30:01,402 - __main__ - ERROR - Cape Town FAILED — HTTP error: 404 Client Error: Not Found for url: https://api.open-meteo.com/v1/BROKEN?latitude=-33.9249&longitude=18.4241&daily=temperature_2m_max&daily=temperature_2m_min&daily=precipitation_sum&daily=windspeed_10m_max&daily=weathercode&timezone=auto&forecast_days=1
+2026-05-26 19:30:03,642 - __main__ - INFO - Fetching data for Johannesburg...
+2026-05-26 19:30:07,178 - __main__ - ERROR - Johannesburg FAILED — HTTP error: 502 Server Error: Bad Gateway for url: https://api.open-meteo.com/v1/BROKEN?latitude=-26.2041&longitude=28.0473&daily=temperature_2m_max&daily=temperature_2m_min&daily=precipitation_sum&daily=windspeed_10m_max&daily=weathercode&timezone=auto&forecast_days=1
+2026-05-26 19:30:13,142 - __main__ - INFO - Fetching data for Pretoria...
+2026-05-26 19:30:17,356 - __main__ - ERROR - Pretoria FAILED — HTTP error: 404 Client Error: Not Found for url: https://api.open-meteo.com/v1/BROKEN?latitude=-25.7449&longitude=28.1878&daily=temperature_2m_max&daily=temperature_2m_min&daily=precipitation_sum&daily=windspeed_10m_max&daily=weathercode&timezone=auto&forecast_days=1
+2026-05-26 19:30:21,838 - __main__ - INFO - Fetch complete — 0 cities succeeded, 4 failed
+2026-05-26 19:30:21,840 - __main__ - WARNING - Failed cities: ['Durban', 'Cape Town', 'Johannesburg', 'Pretoria']
+2026-05-26 19:30:21,841 - __main__ - CRITICAL - ALL cities failed . Aborting pipeline.
+2026-05-26 19:30:24,179 - __main__ - CRITICAL - PIPELINE FAILED: Fetch stage failed — no data retrieved for any city.
+2026-05-26 19:37:56,192 - __main__ - INFO - Email alert handler configured succesfully
+2026-05-26 19:37:56,196 - __main__ - INFO - PIPELINE TEST RUN HAS STARTED
+2026-05-26 19:37:56,196 - __main__ - INFO - ==================================================
+2026-05-26 19:37:56,196 - __main__ - INFO - FETCH STAGE STARTED
+2026-05-26 19:37:56,196 - __main__ - INFO - Fetching weather for 4 cities
+2026-05-26 19:37:56,198 - __main__ - INFO - ==================================================
+2026-05-26 19:37:56,198 - __main__ - INFO - Fetching data for Durban...
+2026-05-26 19:38:01,057 - __main__ - ERROR - Durban FAILED — HTTP error: 404 Client Error: Not Found for url: https://api.open-meteo.com/v1/BROKEN?latitude=-29.8587&longitude=31.0218&daily=temperature_2m_max&daily=temperature_2m_min&daily=precipitation_sum&daily=windspeed_10m_max&daily=weathercode&timezone=auto&forecast_days=1
+2026-05-26 19:38:03,839 - __main__ - INFO - Fetching data for Cape Town...
+2026-05-26 19:38:07,764 - __main__ - ERROR - Cape Town FAILED — HTTP error: 404 Client Error: Not Found for url: https://api.open-meteo.com/v1/BROKEN?latitude=-33.9249&longitude=18.4241&daily=temperature_2m_max&daily=temperature_2m_min&daily=precipitation_sum&daily=windspeed_10m_max&daily=weathercode&timezone=auto&forecast_days=1
+2026-05-26 19:38:10,340 - __main__ - INFO - Fetching data for Johannesburg...
+2026-05-26 19:38:14,332 - __main__ - ERROR - Johannesburg FAILED — HTTP error: 404 Client Error: Not Found for url: https://api.open-meteo.com/v1/BROKEN?latitude=-26.2041&longitude=28.0473&daily=temperature_2m_max&daily=temperature_2m_min&daily=precipitation_sum&daily=windspeed_10m_max&daily=weathercode&timezone=auto&forecast_days=1
+2026-05-26 19:38:16,889 - __main__ - INFO - Fetching data for Pretoria...
+2026-05-26 19:38:20,544 - __main__ - ERROR - Pretoria FAILED — HTTP error: 404 Client Error: Not Found for url: https://api.open-meteo.com/v1/BROKEN?latitude=-25.7449&longitude=28.1878&daily=temperature_2m_max&daily=temperature_2m_min&daily=precipitation_sum&daily=windspeed_10m_max&daily=weathercode&timezone=auto&forecast_days=1
+2026-05-26 19:38:22,947 - __main__ - INFO - Fetch complete — 0 cities succeeded, 4 failed
+2026-05-26 19:38:22,959 - __main__ - WARNING - Failed cities: ['Durban', 'Cape Town', 'Johannesburg', 'Pretoria']
+2026-05-26 19:38:22,961 - __main__ - CRITICAL - ALL cities failed . Aborting pipeline.
+2026-05-26 19:38:25,514 - __main__ - CRITICAL - PIPELINE FAILED: Fetch stage failed — no data retrieved for any city.
+2026-05-26 19:45:12,749 - __main__ - INFO - Email alert handler configured succesfully
+2026-05-26 19:45:12,826 - __main__ - INFO - PIPELINE TEST RUN HAS STARTED
+2026-05-26 19:45:12,908 - __main__ - INFO - ==================================================
+2026-05-26 19:45:12,983 - __main__ - INFO - FETCH STAGE STARTED
+2026-05-26 19:45:13,043 - __main__ - INFO - Fetching weather for 4 cities
+2026-05-26 19:45:13,084 - __main__ - INFO - ==================================================
+2026-05-26 19:45:13,130 - __main__ - INFO - Fetching data for Durban...
+2026-05-26 19:45:17,816 - __main__ - ERROR - Durban FAILED — HTTP error: 404 Client Error: Not Found for url: https://api.open-meteo.com/v1/BROKEN?latitude=-29.8587&longitude=31.0218&daily=temperature_2m_max&daily=temperature_2m_min&daily=precipitation_sum&daily=windspeed_10m_max&daily=weathercode&timezone=auto&forecast_days=1
+2026-05-26 19:45:23,724 - __main__ - INFO - Fetching data for Cape Town...
+2026-05-26 19:45:27,777 - __main__ - ERROR - Cape Town FAILED — HTTP error: 404 Client Error: Not Found for url: https://api.open-meteo.com/v1/BROKEN?latitude=-33.9249&longitude=18.4241&daily=temperature_2m_max&daily=temperature_2m_min&daily=precipitation_sum&daily=windspeed_10m_max&daily=weathercode&timezone=auto&forecast_days=1
+2026-05-26 19:45:32,114 - __main__ - INFO - Fetching data for Johannesburg...
+2026-05-26 19:45:36,875 - __main__ - ERROR - Johannesburg FAILED — HTTP error: 404 Client Error: Not Found for url: https://api.open-meteo.com/v1/BROKEN?latitude=-26.2041&longitude=28.0473&daily=temperature_2m_max&daily=temperature_2m_min&daily=precipitation_sum&daily=windspeed_10m_max&daily=weathercode&timezone=auto&forecast_days=1
+2026-05-26 19:45:41,852 - __main__ - INFO - Fetching data for Pretoria...
+2026-05-26 19:45:45,736 - __main__ - ERROR - Pretoria FAILED — HTTP error: 404 Client Error: Not Found for url: https://api.open-meteo.com/v1/BROKEN?latitude=-25.7449&longitude=28.1878&daily=temperature_2m_max&daily=temperature_2m_min&daily=precipitation_sum&daily=windspeed_10m_max&daily=weathercode&timezone=auto&forecast_days=1
+2026-05-26 19:45:49,541 - __main__ - INFO - Fetch complete — 0 cities succeeded, 4 failed
+2026-05-26 19:45:49,543 - __main__ - WARNING - Failed cities: ['Durban', 'Cape Town', 'Johannesburg', 'Pretoria']
+2026-05-26 19:45:49,547 - __main__ - CRITICAL - ALL cities failed . Aborting pipeline.
+2026-05-26 19:45:53,406 - __main__ - CRITICAL - PIPELINE FAILED: Fetch stage failed — no data retrieved for any city.
+2026-05-26 19:53:24,048 - __main__ - INFO - Email alert handler configured succesfully
+2026-05-26 19:53:24,048 - __main__ - INFO - PIPELINE TEST RUN HAS STARTED
+2026-05-26 19:53:24,048 - __main__ - INFO - ==================================================
+2026-05-26 19:53:24,050 - __main__ - INFO - FETCH STAGE STARTED
+2026-05-26 19:53:24,050 - __main__ - INFO - Fetching weather for 4 cities
+2026-05-26 19:53:24,050 - __main__ - INFO - ==================================================
+2026-05-26 19:53:24,113 - __main__ - INFO - Fetching data for Durban...
+2026-05-26 19:53:28,659 - __main__ - ERROR - Durban FAILED — HTTP error: 404 Client Error: Not Found for url: https://api.open-meteo.com/v1/BROKEN?latitude=-29.8587&longitude=31.0218&daily=temperature_2m_max&daily=temperature_2m_min&daily=precipitation_sum&daily=windspeed_10m_max&daily=weathercode&timezone=auto&forecast_days=1
+2026-05-26 19:53:34,412 - __main__ - INFO - Fetching data for Cape Town...
+2026-05-26 19:53:38,130 - __main__ - ERROR - Cape Town FAILED — HTTP error: 404 Client Error: Not Found for url: https://api.open-meteo.com/v1/BROKEN?latitude=-33.9249&longitude=18.4241&daily=temperature_2m_max&daily=temperature_2m_min&daily=precipitation_sum&daily=windspeed_10m_max&daily=weathercode&timezone=auto&forecast_days=1
+2026-05-26 19:53:44,217 - __main__ - INFO - Fetching data for Johannesburg...
+2026-05-26 19:53:48,252 - __main__ - ERROR - Johannesburg FAILED — HTTP error: 404 Client Error: Not Found for url: https://api.open-meteo.com/v1/BROKEN?latitude=-26.2041&longitude=28.0473&daily=temperature_2m_max&daily=temperature_2m_min&daily=precipitation_sum&daily=windspeed_10m_max&daily=weathercode&timezone=auto&forecast_days=1
+2026-05-26 19:53:53,232 - __main__ - INFO - Fetching data for Pretoria...
+2026-05-26 19:53:58,013 - __main__ - ERROR - Pretoria FAILED — HTTP error: 404 Client Error: Not Found for url: https://api.open-meteo.com/v1/BROKEN?latitude=-25.7449&longitude=28.1878&daily=temperature_2m_max&daily=temperature_2m_min&daily=precipitation_sum&daily=windspeed_10m_max&daily=weathercode&timezone=auto&forecast_days=1
+2026-05-26 19:54:04,152 - __main__ - INFO - Fetch complete — 0 cities succeeded, 4 failed
+2026-05-26 19:54:04,176 - __main__ - WARNING - Failed cities: ['Durban', 'Cape Town', 'Johannesburg', 'Pretoria']
+2026-05-26 19:54:04,177 - __main__ - CRITICAL - ALL cities failed . Aborting pipeline.
+2026-05-26 19:54:08,661 - __main__ - CRITICAL - PIPELINE FAILED: Fetch stage failed — no data retrieved for any city.
+2026-05-26 20:22:48,749 - __main__ - INFO - Email alert handler configured succesfully
+2026-05-26 20:22:48,762 - __main__ - INFO - PIPELINE TEST RUN HAS STARTED
+2026-05-26 20:22:48,762 - __main__ - INFO - ==================================================
+2026-05-26 20:22:48,765 - __main__ - INFO - FETCH STAGE STARTED
+2026-05-26 20:22:48,779 - __main__ - INFO - Fetching weather for 4 cities
+2026-05-26 20:22:48,802 - __main__ - INFO - ==================================================
+2026-05-26 20:22:48,830 - __main__ - INFO - Fetching data for Durban...
+2026-05-26 20:22:57,203 - __main__ - ERROR - Durban FAILED — HTTP error: 404 Client Error: Not Found for url: https://api.open-meteo.com/v1/BROKEN?latitude=-29.8587&longitude=31.0218&daily=temperature_2m_max&daily=temperature_2m_min&daily=precipitation_sum&daily=windspeed_10m_max&daily=weathercode&timezone=auto&forecast_days=1
+2026-05-26 20:23:03,416 - __main__ - INFO - Fetching data for Cape Town...
+2026-05-26 20:23:08,475 - __main__ - ERROR - Cape Town FAILED — HTTP error: 404 Client Error: Not Found for url: https://api.open-meteo.com/v1/BROKEN?latitude=-33.9249&longitude=18.4241&daily=temperature_2m_max&daily=temperature_2m_min&daily=precipitation_sum&daily=windspeed_10m_max&daily=weathercode&timezone=auto&forecast_days=1
+2026-05-26 20:23:14,897 - __main__ - INFO - Fetching data for Johannesburg...
+2026-05-26 20:23:28,060 - __main__ - ERROR - Johannesburg FAILED — API timed out after 10 seconds
+2026-05-26 20:23:34,910 - __main__ - INFO - Fetching data for Pretoria...
+2026-05-26 20:23:41,359 - __main__ - ERROR - Pretoria FAILED — HTTP error: 404 Client Error: Not Found for url: https://api.open-meteo.com/v1/BROKEN?latitude=-25.7449&longitude=28.1878&daily=temperature_2m_max&daily=temperature_2m_min&daily=precipitation_sum&daily=windspeed_10m_max&daily=weathercode&timezone=auto&forecast_days=1
+2026-05-26 20:23:46,589 - __main__ - INFO - Fetch complete — 0 cities succeeded, 4 failed
+2026-05-26 20:23:46,591 - __main__ - WARNING - Failed cities: ['Durban', 'Cape Town', 'Johannesburg', 'Pretoria']
+2026-05-26 20:23:46,593 - __main__ - CRITICAL - ALL cities failed . Aborting pipeline.
+2026-05-26 20:23:52,518 - __main__ - CRITICAL - PIPELINE FAILED: Fetch stage failed — no data retrieved for any city.
+2026-05-27 13:37:50,494 - __main__ - INFO - Email alert handler configured succesfully
+2026-05-27 13:37:50,506 - __main__ - INFO - PIPELINE TEST RUN HAS STARTED
+2026-05-27 13:37:50,510 - __main__ - INFO - ==================================================
+2026-05-27 13:37:50,535 - __main__ - INFO - FETCH STAGE STARTED
+2026-05-27 13:37:50,542 - __main__ - INFO - Fetching weather for 4 cities
+2026-05-27 13:37:50,565 - __main__ - INFO - ==================================================
+2026-05-27 13:37:50,567 - __main__ - INFO - Fetching data for Durban...
+2026-05-27 13:37:54,471 - __main__ - INFO - Durban OK — max: 24.5°C, min: 17.4°C, rain: 0.0mm
+2026-05-27 13:37:54,473 - __main__ - INFO - Fetching data for Cape Town...
+2026-05-27 13:37:59,382 - __main__ - INFO - Cape Town OK — max: 17.1°C, min: 12.1°C, rain: 1.9mm
+2026-05-27 13:37:59,390 - __main__ - INFO - Fetching data for Johannesburg...
+2026-05-27 13:38:02,269 - __main__ - INFO - Johannesburg OK — max: 19.1°C, min: 8.6°C, rain: 0.0mm
+2026-05-27 13:38:02,271 - __main__ - INFO - Fetching data for Pretoria...
+2026-05-27 13:38:04,946 - __main__ - INFO - Pretoria OK — max: 22.0°C, min: 11.4°C, rain: 0.0mm
+2026-05-27 13:38:04,946 - __main__ - INFO - Fetch complete — 4 cities succeeded, 0 failed
+2026-05-27 13:38:05,027 - __main__ - INFO - FETCH STAGE COMPLETE
+2026-05-27 13:38:05,043 - __main__ - INFO - ==================================================
+2026-05-27 13:38:05,045 - __main__ - INFO - VALIDATION STAGE STARTED
+2026-05-27 13:38:05,050 - __main__ - INFO - ==================================================
+2026-05-27 13:38:05,105 - __main__ - INFO - NULL check PASSED — 'city'
+2026-05-27 13:38:05,106 - __main__ - INFO - NULL check PASSED — 'date'
+2026-05-27 13:38:05,108 - __main__ - INFO - NULL check PASSED — 'temp_max_c'
+2026-05-27 13:38:05,108 - __main__ - INFO - NULL check PASSED — 'temp_min_c'
+2026-05-27 13:38:05,110 - __main__ - INFO - Range check PASSED — temp_max_c
+2026-05-27 13:38:05,125 - __main__ - INFO - Range check PASSED — temp_min_c
+2026-05-27 13:38:05,131 - __main__ - INFO - Logic check PASSED — temp_max >= temp_min
+2026-05-27 13:38:05,171 - __main__ - INFO - Data quality score: 100.0%
+2026-05-27 13:38:05,188 - __main__ - INFO - Rows: 4 | Cities: 4 | Columns: 8
+2026-05-27 13:38:05,188 - __main__ - INFO - VALIDATION STAGE COMPLETE — all critical checks passed
+2026-05-27 13:38:05,188 - __main__ - INFO - ==================================================
+2026-05-27 13:38:05,188 - __main__ - INFO - CLEAN STAGE STARTED
+2026-05-27 13:38:05,188 - __main__ - INFO - ==================================================
+2026-05-27 13:38:05,191 - __main__ - INFO - No duplicates found
+2026-05-27 13:38:05,219 - __main__ - INFO - Types cast successfully
+2026-05-27 13:38:05,234 - __main__ - INFO - Computed column added: temp_range_c
+2026-05-27 13:38:05,234 - __main__ - INFO - CLEAN STAGE COMPLETE — 4 rows ready for loading
+2026-05-27 13:38:05,234 - __main__ - INFO - Columns: ['city', 'date', 'temp_max_c', 'temp_min_c', 'precipitation_mm', 'windspeed_kmh', 'weathercode', 'ingested_at', 'temp_range_c']
+2026-05-27 13:38:05,289 - __main__ - INFO - PIPELINE TEST RUN COMPLETE
+2026-05-28 15:45:52,715 - fetch_weather - INFO - Email alert handler configured succesfully
+2026-05-28 15:45:52,715 - fetch_weather - INFO - ==================================================
+2026-05-28 15:45:52,715 - fetch_weather - INFO - FETCH STAGE STARTED
+2026-05-28 15:45:52,715 - fetch_weather - INFO - Fetching weather for 4 cities
+2026-05-28 15:45:52,715 - fetch_weather - INFO - ==================================================
+2026-05-28 15:45:52,715 - fetch_weather - INFO - Fetching data for Durban...
+2026-05-28 15:45:54,896 - fetch_weather - INFO - Durban OK — max: 25.5°C, min: 14.8°C, rain: 0.0mm
+2026-05-28 15:45:54,898 - fetch_weather - INFO - Fetching data for Cape Town...
+2026-05-28 15:45:57,003 - fetch_weather - INFO - Cape Town OK — max: 16.7°C, min: 14.0°C, rain: 1.8mm
+2026-05-28 15:45:57,003 - fetch_weather - INFO - Fetching data for Johannesburg...
+2026-05-28 15:45:59,928 - fetch_weather - INFO - Johannesburg OK — max: 19.1°C, min: 9.6°C, rain: 0.0mm
+2026-05-28 15:45:59,971 - fetch_weather - INFO - Fetching data for Pretoria...
+2026-05-28 15:46:03,409 - fetch_weather - INFO - Pretoria OK — max: 22.2°C, min: 11.6°C, rain: 0.0mm
+2026-05-28 15:46:03,413 - fetch_weather - INFO - Fetch complete — 4 cities succeeded, 0 failed
+2026-05-28 15:46:03,421 - fetch_weather - INFO - FETCH STAGE COMPLETE
+2026-05-28 15:46:03,441 - fetch_weather - INFO - ==================================================
+2026-05-28 15:46:03,445 - fetch_weather - INFO - VALIDATION STAGE STARTED
+2026-05-28 15:46:03,446 - fetch_weather - INFO - ==================================================
+2026-05-28 15:46:03,462 - fetch_weather - INFO - NULL check PASSED — 'city'
+2026-05-28 15:46:03,470 - fetch_weather - INFO - NULL check PASSED — 'date'
+2026-05-28 15:46:03,520 - fetch_weather - INFO - NULL check PASSED — 'temp_max_c'
+2026-05-28 15:46:03,538 - fetch_weather - INFO - NULL check PASSED — 'temp_min_c'
+2026-05-28 15:46:03,542 - fetch_weather - INFO - Range check PASSED — temp_max_c
+2026-05-28 15:46:03,636 - fetch_weather - INFO - Range check PASSED — temp_min_c
+2026-05-28 15:46:03,714 - fetch_weather - INFO - Logic check PASSED — temp_max >= temp_min
+2026-05-28 15:46:03,742 - fetch_weather - INFO - Data quality score: 100.0%
+2026-05-28 15:46:03,757 - fetch_weather - INFO - Rows: 4 | Cities: 4 | Columns: 8
+2026-05-28 15:46:03,761 - fetch_weather - INFO - VALIDATION STAGE COMPLETE — all critical checks passed
+2026-05-28 15:46:03,767 - fetch_weather - INFO - ==================================================
+2026-05-28 15:46:03,769 - fetch_weather - INFO - CLEAN STAGE STARTED
+2026-05-28 15:46:03,770 - fetch_weather - INFO - ==================================================
+2026-05-28 15:46:03,780 - fetch_weather - INFO - No duplicates found
+2026-05-28 15:46:03,803 - fetch_weather - INFO - Types cast successfully
+2026-05-28 15:46:03,833 - fetch_weather - INFO - Computed column added: temp_range_c
+2026-05-28 15:46:03,835 - fetch_weather - INFO - CLEAN STAGE COMPLETE — 4 rows ready for loading
+2026-05-28 15:46:03,837 - fetch_weather - INFO - Columns: ['city', 'date', 'temp_max_c', 'temp_min_c', 'precipitation_mm', 'windspeed_kmh', 'weathercode', 'ingested_at', 'temp_range_c']
+2026-05-28 15:48:03,771 - fetch_weather - INFO - Email alert handler configured succesfully
+2026-05-28 15:48:03,772 - fetch_weather - INFO - ==================================================
+2026-05-28 15:48:03,772 - fetch_weather - INFO - FETCH STAGE STARTED
+2026-05-28 15:48:03,772 - fetch_weather - INFO - Fetching weather for 4 cities
+2026-05-28 15:48:03,772 - fetch_weather - INFO - ==================================================
+2026-05-28 15:48:03,772 - fetch_weather - INFO - Fetching data for Durban...
+2026-05-28 15:48:05,998 - fetch_weather - INFO - Durban OK — max: 25.5°C, min: 14.8°C, rain: 0.0mm
+2026-05-28 15:48:05,998 - fetch_weather - INFO - Fetching data for Cape Town...
+2026-05-28 15:48:08,243 - fetch_weather - INFO - Cape Town OK — max: 16.7°C, min: 14.0°C, rain: 1.8mm
+2026-05-28 15:48:08,243 - fetch_weather - INFO - Fetching data for Johannesburg...
+2026-05-28 15:48:10,905 - fetch_weather - INFO - Johannesburg OK — max: 19.1°C, min: 9.6°C, rain: 0.0mm
+2026-05-28 15:48:10,905 - fetch_weather - INFO - Fetching data for Pretoria...
+2026-05-28 15:48:13,006 - fetch_weather - INFO - Pretoria OK — max: 22.2°C, min: 11.6°C, rain: 0.0mm
+2026-05-28 15:48:13,006 - fetch_weather - INFO - Fetch complete — 4 cities succeeded, 0 failed
+2026-05-28 15:48:13,006 - fetch_weather - INFO - FETCH STAGE COMPLETE
+2026-05-28 15:48:13,015 - fetch_weather - INFO - ==================================================
+2026-05-28 15:48:13,015 - fetch_weather - INFO - VALIDATION STAGE STARTED
+2026-05-28 15:48:13,015 - fetch_weather - INFO - ==================================================
+2026-05-28 15:48:13,023 - fetch_weather - INFO - NULL check PASSED — 'city'
+2026-05-28 15:48:13,026 - fetch_weather - INFO - NULL check PASSED — 'date'
+2026-05-28 15:48:13,036 - fetch_weather - INFO - NULL check PASSED — 'temp_max_c'
+2026-05-28 15:48:13,037 - fetch_weather - INFO - NULL check PASSED — 'temp_min_c'
+2026-05-28 15:48:13,037 - fetch_weather - INFO - Range check PASSED — temp_max_c
+2026-05-28 15:48:13,038 - fetch_weather - INFO - Range check PASSED — temp_min_c
+2026-05-28 15:48:13,041 - fetch_weather - INFO - Logic check PASSED — temp_max >= temp_min
+2026-05-28 15:48:13,048 - fetch_weather - INFO - Data quality score: 100.0%
+2026-05-28 15:48:13,054 - fetch_weather - INFO - Rows: 4 | Cities: 4 | Columns: 8
+2026-05-28 15:48:13,059 - fetch_weather - INFO - VALIDATION STAGE COMPLETE — all critical checks passed
+2026-05-28 15:48:13,073 - fetch_weather - INFO - ==================================================
+2026-05-28 15:48:13,074 - fetch_weather - INFO - CLEAN STAGE STARTED
+2026-05-28 15:48:13,075 - fetch_weather - INFO - ==================================================
+2026-05-28 15:48:13,077 - fetch_weather - INFO - No duplicates found
+2026-05-28 15:48:13,101 - fetch_weather - INFO - Types cast successfully
+2026-05-28 15:48:13,107 - fetch_weather - INFO - Computed column added: temp_range_c
+2026-05-28 15:48:13,113 - fetch_weather - INFO - CLEAN STAGE COMPLETE — 4 rows ready for loading
+2026-05-28 15:48:13,119 - fetch_weather - INFO - Columns: ['city', 'date', 'temp_max_c', 'temp_min_c', 'precipitation_mm', 'windspeed_kmh', 'weathercode', 'ingested_at', 'temp_range_c']
+2026-05-28 15:48:27,191 - fetch_weather - INFO - Email alert handler configured succesfully
+2026-05-28 15:48:27,191 - fetch_weather - INFO - ==================================================
+2026-05-28 15:48:27,191 - fetch_weather - INFO - FETCH STAGE STARTED
+2026-05-28 15:48:27,191 - fetch_weather - INFO - Fetching weather for 4 cities
+2026-05-28 15:48:27,191 - fetch_weather - INFO - ==================================================
+2026-05-28 15:48:27,191 - fetch_weather - INFO - Fetching data for Durban...
+2026-05-28 15:48:29,589 - fetch_weather - INFO - Durban OK — max: 25.5°C, min: 14.8°C, rain: 0.0mm
+2026-05-28 15:48:29,589 - fetch_weather - INFO - Fetching data for Cape Town...
+2026-05-28 15:48:31,846 - fetch_weather - INFO - Cape Town OK — max: 16.7°C, min: 14.0°C, rain: 1.8mm
+2026-05-28 15:48:31,846 - fetch_weather - INFO - Fetching data for Johannesburg...
+2026-05-28 15:48:34,051 - fetch_weather - INFO - Johannesburg OK — max: 19.1°C, min: 9.6°C, rain: 0.0mm
+2026-05-28 15:48:34,053 - fetch_weather - INFO - Fetching data for Pretoria...
+2026-05-28 15:48:36,247 - fetch_weather - INFO - Pretoria OK — max: 22.2°C, min: 11.6°C, rain: 0.0mm
+2026-05-28 15:48:36,247 - fetch_weather - INFO - Fetch complete — 4 cities succeeded, 0 failed
+2026-05-28 15:48:36,247 - fetch_weather - INFO - FETCH STAGE COMPLETE
+2026-05-28 15:48:36,253 - fetch_weather - INFO - ==================================================
+2026-05-28 15:48:36,253 - fetch_weather - INFO - VALIDATION STAGE STARTED
+2026-05-28 15:48:36,254 - fetch_weather - INFO - ==================================================
+2026-05-28 15:48:36,258 - fetch_weather - INFO - NULL check PASSED — 'city'
+2026-05-28 15:48:36,269 - fetch_weather - INFO - NULL check PASSED — 'date'
+2026-05-28 15:48:36,276 - fetch_weather - INFO - NULL check PASSED — 'temp_max_c'
+2026-05-28 15:48:36,278 - fetch_weather - INFO - NULL check PASSED — 'temp_min_c'
+2026-05-28 15:48:36,286 - fetch_weather - INFO - Range check PASSED — temp_max_c
+2026-05-28 15:48:36,287 - fetch_weather - INFO - Range check PASSED — temp_min_c
+2026-05-28 15:48:36,288 - fetch_weather - INFO - Logic check PASSED — temp_max >= temp_min
+2026-05-28 15:48:36,297 - fetch_weather - INFO - Data quality score: 100.0%
+2026-05-28 15:48:36,301 - fetch_weather - INFO - Rows: 4 | Cities: 4 | Columns: 8
+2026-05-28 15:48:36,304 - fetch_weather - INFO - VALIDATION STAGE COMPLETE — all critical checks passed
+2026-05-28 15:48:36,311 - fetch_weather - INFO - ==================================================
+2026-05-28 15:48:36,313 - fetch_weather - INFO - CLEAN STAGE STARTED
+2026-05-28 15:48:36,314 - fetch_weather - INFO - ==================================================
+2026-05-28 15:48:36,323 - fetch_weather - INFO - No duplicates found
+2026-05-28 15:48:36,344 - fetch_weather - INFO - Types cast successfully
+2026-05-28 15:48:36,351 - fetch_weather - INFO - Computed column added: temp_range_c
+2026-05-28 15:48:36,352 - fetch_weather - INFO - CLEAN STAGE COMPLETE — 4 rows ready for loading
+2026-05-28 15:48:36,353 - fetch_weather - INFO - Columns: ['city', 'date', 'temp_max_c', 'temp_min_c', 'precipitation_mm', 'windspeed_kmh', 'weathercode', 'ingested_at', 'temp_range_c']
+2026-05-28 16:12:53,240 - fetch_weather - INFO - Email alert handler configured succesfully
+2026-05-28 16:12:53,241 - fetch_weather - INFO - ==================================================
+2026-05-28 16:12:53,241 - fetch_weather - INFO - FETCH STAGE STARTED
+2026-05-28 16:12:53,241 - fetch_weather - INFO - Fetching weather for 4 cities
+2026-05-28 16:12:53,241 - fetch_weather - INFO - ==================================================
+2026-05-28 16:12:53,241 - fetch_weather - INFO - Fetching data for Durban...
+2026-05-28 16:12:55,795 - fetch_weather - INFO - Durban OK — max: 25.5°C, min: 14.8°C, rain: 0.0mm
+2026-05-28 16:12:55,798 - fetch_weather - INFO - Fetching data for Cape Town...
+2026-05-28 16:13:02,050 - fetch_weather - INFO - Cape Town OK — max: 16.7°C, min: 14.0°C, rain: 1.8mm
+2026-05-28 16:13:02,052 - fetch_weather - INFO - Fetching data for Johannesburg...
+2026-05-28 16:13:04,544 - fetch_weather - INFO - Johannesburg OK — max: 19.1°C, min: 9.6°C, rain: 0.0mm
+2026-05-28 16:13:04,546 - fetch_weather - INFO - Fetching data for Pretoria...
+2026-05-28 16:13:06,858 - fetch_weather - INFO - Pretoria OK — max: 22.2°C, min: 11.6°C, rain: 0.0mm
+2026-05-28 16:13:06,860 - fetch_weather - INFO - Fetch complete — 4 cities succeeded, 0 failed
+2026-05-28 16:13:06,860 - fetch_weather - INFO - FETCH STAGE COMPLETE
+2026-05-28 16:13:06,874 - fetch_weather - INFO - ==================================================
+2026-05-28 16:13:06,875 - fetch_weather - INFO - VALIDATION STAGE STARTED
+2026-05-28 16:13:06,876 - fetch_weather - INFO - ==================================================
+2026-05-28 16:13:06,883 - fetch_weather - INFO - NULL check PASSED — 'city'
+2026-05-28 16:13:06,885 - fetch_weather - INFO - NULL check PASSED — 'date'
+2026-05-28 16:13:06,889 - fetch_weather - INFO - NULL check PASSED — 'temp_max_c'
+2026-05-28 16:13:06,889 - fetch_weather - INFO - NULL check PASSED — 'temp_min_c'
+2026-05-28 16:13:06,893 - fetch_weather - INFO - Range check PASSED — temp_max_c
+2026-05-28 16:13:06,895 - fetch_weather - INFO - Range check PASSED — temp_min_c
+2026-05-28 16:13:06,899 - fetch_weather - INFO - Logic check PASSED — temp_max >= temp_min
+2026-05-28 16:13:06,909 - fetch_weather - INFO - Data quality score: 100.0%
+2026-05-28 16:13:06,915 - fetch_weather - INFO - Rows: 4 | Cities: 4 | Columns: 8
+2026-05-28 16:13:06,918 - fetch_weather - INFO - VALIDATION STAGE COMPLETE — all critical checks passed
+2026-05-28 16:13:06,922 - fetch_weather - INFO - ==================================================
+2026-05-28 16:13:06,922 - fetch_weather - INFO - CLEAN STAGE STARTED
+2026-05-28 16:13:06,925 - fetch_weather - INFO - ==================================================
+2026-05-28 16:13:06,931 - fetch_weather - INFO - No duplicates found
+2026-05-28 16:13:06,950 - fetch_weather - INFO - Types cast successfully
+2026-05-28 16:13:06,953 - fetch_weather - INFO - Computed column added: temp_range_c
+2026-05-28 16:13:06,953 - fetch_weather - INFO - CLEAN STAGE COMPLETE — 4 rows ready for loading
+2026-05-28 16:13:06,953 - fetch_weather - INFO - Columns: ['city', 'date', 'temp_max_c', 'temp_min_c', 'precipitation_mm', 'windspeed_kmh', 'weathercode', 'ingested_at', 'temp_range_c']
+2026-05-28 16:21:45,123 - fetch_weather - INFO - Email alert handler configured succesfully
+2026-05-28 16:21:45,125 - fetch_weather - INFO - ==================================================
+2026-05-28 16:21:45,125 - fetch_weather - INFO - FETCH STAGE STARTED
+2026-05-28 16:21:45,125 - fetch_weather - INFO - Fetching weather for 4 cities
+2026-05-28 16:21:45,127 - fetch_weather - INFO - ==================================================
+2026-05-28 16:21:45,127 - fetch_weather - INFO - Fetching data for Durban...
+2026-05-28 16:21:51,561 - fetch_weather - INFO - Durban OK — max: 25.5°C, min: 14.8°C, rain: 0.0mm
+2026-05-28 16:21:51,562 - fetch_weather - INFO - Fetching data for Cape Town...
+2026-05-28 16:21:53,767 - fetch_weather - INFO - Cape Town OK — max: 16.7°C, min: 14.0°C, rain: 1.8mm
+2026-05-28 16:21:53,767 - fetch_weather - INFO - Fetching data for Johannesburg...
+2026-05-28 16:21:56,577 - fetch_weather - INFO - Johannesburg OK — max: 19.1°C, min: 9.6°C, rain: 0.0mm
+2026-05-28 16:21:56,606 - fetch_weather - INFO - Fetching data for Pretoria...
+2026-05-28 16:21:59,558 - fetch_weather - INFO - Pretoria OK — max: 22.2°C, min: 11.6°C, rain: 0.0mm
+2026-05-28 16:21:59,558 - fetch_weather - INFO - Fetch complete — 4 cities succeeded, 0 failed
+2026-05-28 16:21:59,558 - fetch_weather - INFO - FETCH STAGE COMPLETE
+2026-05-28 16:21:59,563 - fetch_weather - INFO - ==================================================
+2026-05-28 16:21:59,563 - fetch_weather - INFO - VALIDATION STAGE STARTED
+2026-05-28 16:21:59,563 - fetch_weather - INFO - ==================================================
+2026-05-28 16:21:59,569 - fetch_weather - INFO - NULL check PASSED — 'city'
+2026-05-28 16:21:59,571 - fetch_weather - INFO - NULL check PASSED — 'date'
+2026-05-28 16:21:59,573 - fetch_weather - INFO - NULL check PASSED — 'temp_max_c'
+2026-05-28 16:21:59,574 - fetch_weather - INFO - NULL check PASSED — 'temp_min_c'
+2026-05-28 16:21:59,580 - fetch_weather - INFO - Range check PASSED — temp_max_c
+2026-05-28 16:21:59,584 - fetch_weather - INFO - Range check PASSED — temp_min_c
+2026-05-28 16:21:59,588 - fetch_weather - INFO - Logic check PASSED — temp_max >= temp_min
+2026-05-28 16:21:59,591 - fetch_weather - INFO - Data quality score: 100.0%
+2026-05-28 16:21:59,592 - fetch_weather - INFO - Rows: 4 | Cities: 4 | Columns: 8
+2026-05-28 16:21:59,592 - fetch_weather - INFO - VALIDATION STAGE COMPLETE — all critical checks passed
+2026-05-28 16:21:59,593 - fetch_weather - INFO - ==================================================
+2026-05-28 16:21:59,593 - fetch_weather - INFO - CLEAN STAGE STARTED
+2026-05-28 16:21:59,595 - fetch_weather - INFO - ==================================================
+2026-05-28 16:21:59,597 - fetch_weather - INFO - No duplicates found
+2026-05-28 16:21:59,608 - fetch_weather - INFO - Types cast successfully
+2026-05-28 16:21:59,612 - fetch_weather - INFO - Computed column added: temp_range_c
+2026-05-28 16:21:59,612 - fetch_weather - INFO - CLEAN STAGE COMPLETE — 4 rows ready for loading
+2026-05-28 16:21:59,612 - fetch_weather - INFO - Columns: ['city', 'date', 'temp_max_c', 'temp_min_c', 'precipitation_mm', 'windspeed_kmh', 'weathercode', 'ingested_at', 'temp_range_c']
+2026-06-02 11:08:25,749 - fetch_weather - INFO - Email alert handler configured succesfully
+2026-06-02 11:08:25,749 - fetch_weather - INFO - ==================================================
+2026-06-02 11:08:25,749 - fetch_weather - INFO - FETCH STAGE STARTED
+2026-06-02 11:08:25,749 - fetch_weather - INFO - Fetching weather for 4 cities
+2026-06-02 11:08:25,757 - fetch_weather - INFO - ==================================================
+2026-06-02 11:08:25,757 - fetch_weather - INFO - Fetching data for Durban...
+2026-06-02 11:08:28,195 - fetch_weather - INFO - Durban OK — max: 26.0°C, min: 12.9°C, rain: 0.0mm
+2026-06-02 11:08:28,195 - fetch_weather - INFO - Fetching data for Cape Town...
+2026-06-02 11:08:30,361 - fetch_weather - INFO - Cape Town OK — max: 18.5°C, min: 12.1°C, rain: 0.3mm
+2026-06-02 11:08:30,363 - fetch_weather - INFO - Fetching data for Johannesburg...
+2026-06-02 11:08:32,500 - fetch_weather - INFO - Johannesburg OK — max: 17.0°C, min: 7.0°C, rain: 0.0mm
+2026-06-02 11:08:32,500 - fetch_weather - INFO - Fetching data for Pretoria...
+2026-06-02 11:08:34,780 - fetch_weather - INFO - Pretoria OK — max: 19.5°C, min: 10.0°C, rain: 0.0mm
+2026-06-02 11:08:34,780 - fetch_weather - INFO - Fetch complete — 4 cities succeeded, 0 failed
+2026-06-02 11:08:34,806 - fetch_weather - INFO - FETCH STAGE COMPLETE
+2026-06-02 11:08:34,814 - fetch_weather - INFO - ==================================================
+2026-06-02 11:08:34,838 - fetch_weather - INFO - VALIDATION STAGE STARTED
+2026-06-02 11:08:34,839 - fetch_weather - INFO - ==================================================
+2026-06-02 11:08:34,855 - fetch_weather - INFO - NULL check PASSED — 'city'
+2026-06-02 11:08:34,861 - fetch_weather - INFO - NULL check PASSED — 'date'
+2026-06-02 11:08:34,863 - fetch_weather - INFO - NULL check PASSED — 'temp_max_c'
+2026-06-02 11:08:34,863 - fetch_weather - INFO - NULL check PASSED — 'temp_min_c'
+2026-06-02 11:08:34,872 - fetch_weather - INFO - Range check PASSED — temp_max_c
+2026-06-02 11:08:34,887 - fetch_weather - INFO - Range check PASSED — temp_min_c
+2026-06-02 11:08:34,891 - fetch_weather - INFO - Logic check PASSED — temp_max >= temp_min
+2026-06-02 11:08:34,908 - fetch_weather - INFO - Data quality score: 100.0%
+2026-06-02 11:08:34,929 - fetch_weather - INFO - Rows: 4 | Cities: 4 | Columns: 8
+2026-06-02 11:08:34,929 - fetch_weather - INFO - VALIDATION STAGE COMPLETE — all critical checks passed
+2026-06-02 11:08:34,930 - fetch_weather - INFO - ==================================================
+2026-06-02 11:08:34,930 - fetch_weather - INFO - CLEAN STAGE STARTED
+2026-06-02 11:08:34,931 - fetch_weather - INFO - ==================================================
+2026-06-02 11:08:34,961 - fetch_weather - INFO - No duplicates found
+2026-06-02 11:08:35,005 - fetch_weather - INFO - Types cast successfully
+2026-06-02 11:08:35,009 - fetch_weather - INFO - Computed column added: temp_range_c
+2026-06-02 11:08:35,009 - fetch_weather - INFO - CLEAN STAGE COMPLETE — 4 rows ready for loading
+2026-06-02 11:08:35,009 - fetch_weather - INFO - Columns: ['city', 'date', 'temp_max_c', 'temp_min_c', 'precipitation_mm', 'windspeed_kmh', 'weathercode', 'ingested_at', 'temp_range_c']
+2026-06-10 01:38:07,210 - __main__ - INFO - Email alert handler configured succesfully
+2026-06-10 01:38:07,213 - __main__ - INFO - PIPELINE TEST RUN HAS STARTED
+2026-06-10 01:38:07,218 - __main__ - INFO - ==================================================
+2026-06-10 01:38:07,220 - __main__ - INFO - FETCH STAGE STARTED
+2026-06-10 01:38:07,220 - __main__ - INFO - Fetching weather for 4 cities
+2026-06-10 01:38:07,220 - __main__ - INFO - ==================================================
+2026-06-10 01:38:07,220 - __main__ - INFO - Fetching data for Durban...
+2026-06-10 01:38:09,469 - __main__ - INFO - Durban OK — max: 21.9°C, min: 12.9°C, rain: 1.5mm
+2026-06-10 01:38:09,472 - __main__ - INFO - Fetching data for Cape Town...
+2026-06-10 01:38:11,729 - __main__ - INFO - Cape Town OK — max: 18.2°C, min: 10.3°C, rain: 0.0mm
+2026-06-10 01:38:11,730 - __main__ - INFO - Fetching data for Johannesburg...
+2026-06-10 01:38:13,853 - __main__ - INFO - Johannesburg OK — max: 16.7°C, min: 7.7°C, rain: 0.0mm
+2026-06-10 01:38:13,855 - __main__ - INFO - Fetching data for Pretoria...
+2026-06-10 01:38:15,879 - __main__ - INFO - Pretoria OK — max: 18.7°C, min: 8.6°C, rain: 0.0mm
+2026-06-10 01:38:15,879 - __main__ - INFO - Fetch complete — 4 cities succeeded, 0 failed
+2026-06-10 01:38:15,887 - __main__ - INFO - FETCH STAGE COMPLETE
+2026-06-10 01:38:15,893 - __main__ - INFO - ==================================================
+2026-06-10 01:38:15,895 - __main__ - INFO - VALIDATION STAGE STARTED
+2026-06-10 01:38:15,895 - __main__ - INFO - ==================================================
+2026-06-10 01:38:15,905 - __main__ - INFO - NULL check PASSED — 'city'
+2026-06-10 01:38:15,909 - __main__ - INFO - NULL check PASSED — 'date'
+2026-06-10 01:38:15,911 - __main__ - INFO - NULL check PASSED — 'temp_max_c'
+2026-06-10 01:38:15,913 - __main__ - INFO - NULL check PASSED — 'temp_min_c'
+2026-06-10 01:38:15,919 - __main__ - INFO - Range check PASSED — temp_max_c
+2026-06-10 01:38:15,919 - __main__ - INFO - Range check PASSED — temp_min_c
+2026-06-10 01:38:15,921 - __main__ - INFO - Logic check PASSED — temp_max >= temp_min
+2026-06-10 01:38:15,925 - __main__ - INFO - Data quality score: 100.0%
+2026-06-10 01:38:15,927 - __main__ - INFO - Rows: 4 | Cities: 4 | Columns: 8
+2026-06-10 01:38:15,929 - __main__ - INFO - VALIDATION STAGE COMPLETE — all critical checks passed
+2026-06-10 01:38:15,929 - __main__ - INFO - ==================================================
+2026-06-10 01:38:15,929 - __main__ - INFO - CLEAN STAGE STARTED
+2026-06-10 01:38:15,929 - __main__ - INFO - ==================================================
+2026-06-10 01:38:15,937 - __main__ - INFO - No duplicates found
+2026-06-10 01:38:15,950 - __main__ - INFO - Types cast successfully
+2026-06-10 01:38:15,954 - __main__ - INFO - Computed column added: temp_range_c
+2026-06-10 01:38:15,954 - __main__ - INFO - CLEAN STAGE COMPLETE — 4 rows ready for loading
+2026-06-10 01:38:15,954 - __main__ - INFO - Columns: ['city', 'date', 'temp_max_c', 'temp_min_c', 'precipitation_mm', 'windspeed_kmh', 'weathercode', 'ingested_at', 'temp_range_c']
+2026-06-10 01:38:15,972 - __main__ - INFO - PIPELINE TEST RUN COMPLETE
