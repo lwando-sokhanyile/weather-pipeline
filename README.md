@@ -1,6 +1,6 @@
 # Weather Data Orchestrated Pipeline
 
-An automated weather data pipeline that fetches, validates, cleans, and loads daily weather data for 4 African cities into AWS RDS PostgreSQL, with S3 backup and email alerting — fully orchestrated with Apache Airflow inside Docker.
+An automated weather data pipeline that fetches, validates, cleans, and loads daily weather data for 4 South African cities into AWS RDS PostgreSQL, with S3 backup and email alerting — fully orchestrated with Apache Airflow inside Docker.
 
 ## What it does
 
