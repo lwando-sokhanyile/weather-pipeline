@@ -38,7 +38,6 @@ Email Alert (on failure)
 
 ## Project Structure
 
-'''text
 weather-pipeline/
 ├── dags/
 │   └── weather_pipeline.py    # Airflow DAG definition
@@ -49,7 +48,7 @@ weather-pipeline/
 ├── docker-compose.yaml        # Airflow + Docker setup
 ├── .env                       # Environment variables (not committed)
 └── README.md
-'''
+
 
 ## Data Quality
 
