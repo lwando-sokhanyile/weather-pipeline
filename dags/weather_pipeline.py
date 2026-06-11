@@ -100,7 +100,7 @@ def task_upload(**context):
 with DAG(
     dag_id='weather_pipeline',
     default_args=default_args,
-    description='Daily weather data pipeline for 4 African cities',
+    description='Daily weather data pipeline for 4 South African cities',
     schedule='@daily',
     start_date=datetime(2026, 5, 28),
     catchup=False,
