@@ -76,6 +76,7 @@ Current score: **100%**
 
 ### Setup
 
+```text
 1. Clone the repository
 2. Create a `.env` file with your credentials:
 AIRFLOW_UID=50000
@@ -90,6 +91,7 @@ S3_BUCKET=your-s3-bucket
 AWS_ACCESS_KEY_ID=your-key
 AWS_SECRET_ACCESS_KEY=your-secret
 AWS_DEFAULT_REGION=eu-west-1
+```
 
 3. Start Airflow:
 ```bash
