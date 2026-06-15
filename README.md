@@ -76,9 +76,9 @@ Current score: **100%**
 
 ### Setup
 
-```text
-1. Clone the repository
 2. Create a `.env` file with your credentials:
+
+```
 AIRFLOW_UID=50000
 MAIL_ID=your@gmail.com
 MAIL_PASSWORD=your-app-password
