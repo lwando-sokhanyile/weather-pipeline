@@ -76,6 +76,12 @@ Current score: **100%**
 
 ### Setup
 
+1. Clone the repository:
+```bash
+git clone https://github.com/lwando-sokhanyile/weather-pipeline.git
+cd weather-pipeline
+```
+
 2. Create a `.env` file with your credentials:
 
 ```
