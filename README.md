@@ -2,6 +2,10 @@
 
 An automated weather data pipeline that fetches, validates, cleans, and loads daily weather data for 4 South African cities into AWS RDS PostgreSQL, with S3 backup and email alerting — fully orchestrated with Apache Airflow inside Docker.
 
+## Architecture
+
+[pipeline_architecture](screenshots/architecture.jpeg)
+
 ## What it does
 
 Every day at 2am, Airflow automatically:
