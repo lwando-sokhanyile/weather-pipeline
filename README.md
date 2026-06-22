@@ -4,7 +4,7 @@ An automated weather data pipeline that fetches, validates, cleans, and loads da
 
 ## Architecture
 
-![pipeline_architecture](screenshots/architecture.jpeg)
+![Pipeline Architecture](screenshots/pipeline_architecture.png)
 
 ## What it does
 
