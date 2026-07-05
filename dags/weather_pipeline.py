@@ -68,7 +68,7 @@ def alert_on_failure(context):
 
 # ============================================================
 # TASK FUNCTIONS
-# Each task calls one function from our scripts
+# Each task calls one function from the scripts
 # ============================================================
 def task_fetch(**context):
     df = fetch_weather()
