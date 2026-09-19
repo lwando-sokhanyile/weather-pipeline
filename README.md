@@ -309,7 +309,7 @@ The pipeline has been tested beyond simply checking whether the API returns data
 
 The pipeline successfully extracted weather data for four cities, stored the raw responses in S3, validated and transformed the data, and wrote the final records to PostgreSQL.
 
-![Successful Pipeline Execution](screenshots/pipeline_execution_success.png)
+![Successful Pipeline Execution](screenshots/dag_success.png)
 
 ### End-to-End Validation
 
@@ -496,7 +496,7 @@ The repository includes screenshots demonstrating successful execution and Airfl
 
 ### Pipeline Output
 
-![Terminal Output](screenshots/terminal_output.png)
+![Terminal Output](screenshots/teminal_output.png)
 
 ## What This Project Demonstrates
 
