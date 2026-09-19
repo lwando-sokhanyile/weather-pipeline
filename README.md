@@ -496,7 +496,7 @@ The repository includes screenshots demonstrating successful execution and Airfl
 
 ### Pipeline Output
 
-![Terminal Output](screenshots/teminal_output.png)
+![Terminal Output](screenshots/terminal_output.png)
 
 ## What This Project Demonstrates
 
